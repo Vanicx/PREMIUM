@@ -3,6 +3,8 @@ const botConfig = require("./botconfig.json");
 
 const fs = require("fs");
 
+bot.login(process.env.token);
+
 const bot = new discord.Client();
 
 const client = new discord.Client();
@@ -14,5 +16,3 @@ client.on("ready", async () => {
     client.user.setActivity("💜 Premium FiveM Shop 💜", {type: "WATCHING"});
     
 });
-
-bot.login(process.env.token);
