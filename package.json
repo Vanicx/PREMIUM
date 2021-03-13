@@ -1,0 +1,23 @@
+{
+  "name": "pfsbot",
+  "version": "1.0.0",
+  "description": "Premium FiveM Shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "PFS",
+    "FiveM",
+    "Shop"
+  ],
+  "author": "Vanicx",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
