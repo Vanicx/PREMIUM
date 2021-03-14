@@ -11,8 +11,9 @@ client.login(botConfig.token);
 client.on("ready", async () => {
 
     console.log(`${client.user.username} is online.`);
-    client.user.setActivity("💜 Premium FiveM Shop 💜", {type: "WATCHING"});
-    
+
+    client.user.setActivity("💜 PFS 💜", { type: "WATCHING" });
+
 });
 
 bot.login(process.env.token);
