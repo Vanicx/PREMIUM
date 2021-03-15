@@ -11,7 +11,7 @@ client.login(botConfig.token);
 bot.on("ready", async () => {
 
     console.log(`${bot.user.username} is online (made by Vanicx).`);
-    bot.user.setActivity("💜 Premium FiveM Shop 💜", {type: "STREAMING"});
+    bot.user.setActivity("💜 Premium FiveM Shop 💜", {type: "WATCHING"});
 })
 
 bot.login(process.env.token);
