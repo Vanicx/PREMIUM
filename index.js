@@ -14,17 +14,5 @@ bot.on("ready", async () => {
     bot.user.setActivity("💜 Premium FiveM Shop 💜", {type: "WATCHING"});
 })
 
-client.on('ready', () => {
-    setInterval(() => {
-      targetGuild = client.guilds.get('816069480160428064')
-      if(targetGuild) {
-          client.user.setPresence({ game: { name: targetGuild.memberCount + ' people verifying!', type: 'WATCHING' }, status: 'online'  })
-                .then(console.log)
-                .catch(console.error);
-      }
-}, 1000 * 60 * 5);
-
-});
-
 bot.login(process.env.token);
 
